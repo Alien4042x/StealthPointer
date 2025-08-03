@@ -1,0 +1,14 @@
+StealthPointer License
+
+Copyright (c) 2025 Radim Veselý
+
+Permission is granted to use, modify, and distribute this software
+for personal and non-commercial purposes only.
+
+Any commercial use – including resale, bundling, or distribution for profit –
+is strictly prohibited without explicit written permission from the author.
+
+This software is provided "as is", without warranty of any kind.
+
+Author: Radim Veselý
+GitHub: https://github.com/Alien4042x
