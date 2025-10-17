@@ -1,5 +1,7 @@
 # 👁️‍🗨️ StealthPointer
 
+[![macOS](https://img.shields.io/badge/macOS-11.0+-blue?style=flat-square&logo=apple)](https://www.apple.com/macos/)
+[![C++](https://img.shields.io/badge/C++-20-blue?style=flat-square&logo=cplusplus)](https://isocpp.org/)
 [![Release](https://img.shields.io/github/v/release/Alien4042x/StealthPointer)](https://github.com/Alien4042x/StealthPointer/releases)
 [![Downloads](https://img.shields.io/github/downloads/Alien4042x/StealthPointer/total)](https://github.com/Alien4042x/StealthPointer/releases)
 
@@ -7,11 +9,12 @@
 
 ## ✨ Features
 
-- Global hotkeys for hiding/showing the cursor (default: F1 / F2)
-- Customizable hotkeys (Cmd/Ctrl/Alt + any key)
-- Simple and clean macOS menubar integration
-- Optimized for Wine gaming
-- No background processes or daemons – runs only in the menubar
+- 🎮 Global hotkeys for hiding/showing the cursor (default: F1 / F2)
+- 🧩 Customizable hotkeys (supports Cmd / Ctrl / Alt modifiers)
+- 🧼 Clean and native macOS menubar integration
+- ⚡ Threaded logic for reliable performance (no timers or delays)
+- 🍷 Optimized specifically for Wine / CrossOver games
+- 🧘 No background daemons – runs only from the menubar
 
 ## ⚙️ Usage
 
@@ -27,6 +30,17 @@
 
 macOS often keeps the cursor visible in fullscreen or remote apps (like Wine).
 This tool gives you control – without hacks or kernel extensions.
+
+## 🧩 Troubleshooting
+
+If the cursor unexpectedly reappears in fullscreen Wine or CrossOver games, make sure your macOS display resolution matches the in-game resolution before launching the game.
+macOS tends to reset display modes when resolutions differ, which forces the cursor to reappear — this isn’t something that can be fixed at the app level.
+Once both resolutions are identical, StealthPointer should work reliably.
+Unfortunately, proper handling of display-mode switches would require changes directly in Wine, not in StealthPointer itself.
+
+💡 Tip: For better stability, try running games in Borderless Windowed (Full Borderless Screen) mode instead of traditional fullscreen.
+Most Wine-based games don’t handle fullscreen switching on macOS correctly — this can cause flickering, cursor resets, or minimize the game when focus changes.
+Borderless mode keeps the resolution stable and ensures StealthPointer behaves predictably when hiding or restoring the cursor.
 
 ## 🔒 License
 
