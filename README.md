@@ -42,6 +42,11 @@ Unfortunately, proper handling of display-mode switches would require changes di
 Most Wine-based games don’t handle fullscreen switching on macOS correctly — this can cause flickering, cursor resets, or minimize the game when focus changes.
 Borderless mode keeps the resolution stable and ensures StealthPointer behaves predictably when hiding or restoring the cursor.
 
+## ❓ FAQ
+
+## Where is the source code?
+StealthPointer is currently closed-source (private). There is no public source repository at the moment.
+
 ## 🔒 License
 
 See [LICENSE.txt](LICENSE.txt) for full terms – non-commercial use only.
